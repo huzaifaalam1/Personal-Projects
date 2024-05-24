@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.NavBar-TopPanel {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/** Logo **/
+.NavBar-Logo {
+    height: 50px;
+    width: 130px;
+    background-image: url(NewLogo.png);
+    object-fit: contain;   
+}
+
+/** Delivery Icon **/
+
+.Delivery {
+    height: 50px;
+    width: 100px; 
+    align-content: center;
+}
+
+.Delivery-Add {
+    color: #CCCCCC;
+    font-size: 0.8rem;
+    margin-left: 12px;
+}
+
+.Delivery-Country {
+    height: 16px;
+    width: 55px;
+    color: #FFFFFF;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    border-top: 1px;
+    font-weight: 550;
+}
+
+.Delivery-Country p {
+    margin-left: 4px;
+}
+
+/** Search Bar **/
+
+.SearchBar {
+    height: 40px;
+    width: 650px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.SearchBar select {
+    height: 40px;
+    width: 53px;
+    background-color: #E6E6E6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.SearchBar:hover {
+    border: 2px solid orange;
+}
+
+#NavSearch {
+    height: 95%;
+    width: 100%;
+    border: none
+}
+
+.SearchButton {
+    width: 48px; 
+}
+
+.SearchButton button {
+    height: 44px;
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: #FEBD68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/** Languages **/
+
+.Languages {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Lang {
+    color: #FFFFFF;
+    font-weight: 550;
+    font-size: 0.85rem;
+}
+
+/** Details **/
+
+.AccDetails {
+    height: 50px;
+    width: 130px;
+    color: #FFFFFF;
+    align-content: center;
+    padding-left: 15px;
+}
+
+span {
+    font-size: 0.75rem;
+}
+
+.Account {
+    font-size: 0.85rem;
+    font-weight: 550;
+}
+/** Order and Returns **/
+
+.OrdDetails {
+    height: 50px;
+    width: 100px;
+    color: #FFFFFF;
+    align-content: center;
+    padding-left: 20px;
+}
+
+/** Cart **/
+
+.Cart {
+    height: 50px;
+    width: 85px;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    padding-left: 10pxd;
+}
+
+.Cart i {
+    font-size: 30px;
+}
+
+.Cart p {
+    margin-left: 5px;
+}
+
+/** Border Effect **/
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+
+}
+
+/** Navbar Bottom Panel **/
+
+.NavBar-BottomPanel {
+    height: 40px;
+    background-color: #222F3d;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.Menu {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu p {
+    font-weight: 550;
+    margin-left: 5px;
+}
+
+.Anchors {
+    font-weight: 500;
+    align-content: center;
+    font-size: 0.85rem;
+}
+
+.Anchors a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Anchors span {
+    height: 40px;
+}
+
+/** Body Background **/
+
+.BodyBackground {
+    height: 600px;
+    background-image: url(BG.jpg);
+    object-fit: contain;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Category1 {
+    height: 420px;
+    width: 320px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 250px;
+    color: #0F1111;
+    align-content: center;
+}
+
+.Category1 h2 {
+    margin-left: 25px;
+}
+
+.PCimg {
+    height: 295px;
+    width: 270px;
+    background-image: url(PCdeals.jpg);
+    object-fit: cover;
+    margin: 15px 25px 20px 25px;
+}
+
+.Toysimg {
+    height: 295px;
+    width: 270px;
+    background-image: url(file\ \(2\).jpg);
+    object-fit: cover;
+    margin: 15px 25px 20px 25px;
+}
+
+.Beautyimg {
+    height: 295px;
+    width: 270px;
+    background-image: url(file\ \(1\).jpg);
+    object-fit: cover;
+    margin: 15px 25px 20px 25px;
+}
+
+.Smartimg {
+    height: 295px;
+    width: 270px;
+    background-image: url(file.jpg);
+    object-fit: cover;
+    margin: 5px 25px 15px 25px;
+}
+
+.Category1 a {
+    font-size: 0.8rem;
+    color: #007185;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+
+/** Categories **/
+
+.PurchaseCategories {
+    height: 550px;
+    background-color: #dcdfe6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Category2 {
+    height: 420px;
+    width: 320px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 250px;
+    color: #0F1111;
+    align-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.Category2 h2 {
+    margin-left: 25px;
+}
+
+.Category2 a {
+    font-size: 0.8rem;
+    color: #007185;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.Laptopimg {
+    height: 295px;
+    width: 270px;
+    background-image: url(laptop1.jpg);
+    object-fit: cover;
+    margin: 15px 25px 20px 25px;
+}
+
+.Softwareimg {
+    height: 295px;
+    width: 270px;
+    background-image: url(software1.jpg);
+    object-fit: cover;
+    margin: 5px 25px 10px 25px;
+}
+
+.Gamingimg {
+    height: 295px;
+    width: 270px;
+    background-image: url(gaming1.jpg);
+    object-fit: cover;
+    margin: 15px 25px 20px 25px;
+}
+
+.Shoesimg {
+    height: 295px;
+    width: 270px;
+    background-image: url(shoes1.jpg);
+    object-fit: cover;
+    margin: 15px 25px 20px 25px;
+}
+
+/** Footer **/
+
+.UpperMost-Panel {
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Miscellaneous {
+    height: 300px;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul p {
+    font-size: 1rem;
+    font-weight: 550;
+    margin-bottom: 10px;
+    position: relative;
+    top: 35px;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    position: relative;
+    top: 40px;
+}
+
+ul a:hover {
+    text-decoration: 1px solid underline;
+}
+
+/** Copyright **/
+
+.Copyright {
+    height: 75px;
+    background-color: #131a22;
+    color: #DDDDDD;
+}
+
+.Copyright a {
+    text-decoration: none;
+    color: #DDDDDD;
+    position: relative;
+    top: 25px;
+    left: 375px;
+    margin-left: 15px;
+    font-size: 0.75rem;
+}
+
+.Copyright a:hover {
+    text-decoration: 1px solid underline;
+}
+
+.Copyright p {
+    position: relative;
+    top: 35px;
+    left: 550px;
+    font-size: 0.75rem;
+}
